@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "webpage"
         IMAGE_TAG = "${env.BUILD_ID}"
-        PORT = "8096"
+        PORT = "8097"
     }
 
     stages {
